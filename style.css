@@ -1,0 +1,918 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: 14vh;
+position: relative...;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+    margin-top: 24px;
+}
+nav ul li:hover{
+
+    transition: 1s;
+
+}
+nav ul li{
+    display: flex;
+    margin-top: 6px;
+
+}
+.foot{
+    background-color: black;
+    height: 10vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+font-size:18px;
+}
+nav ul li a:hover{
+color: black;
+transition: 1s;
+transform: translateY(-5px);
+}
+nav ul  button a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul button{
+    height: 30px;
+    border: 2px solid;
+    border-radius: 40px ;
+    border-color: white;
+    background-color: transparent;
+}
+
+nav ul button:hover{
+    background-color: black;
+    border-color: black;
+    transition: 0.8s;
+}
+
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 23px;
+}
+
+.homepage{
+    height: 100vh;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.39)),url(/asaa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.text{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    animation: ease-in-out 1s;
+}
+
+.text .up{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+
+}
+
+.text .on{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.about{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 100px;
+}
+
+.abimg {
+    margin-left: 60px;
+    box-shadow: 2px 2px 2px white;
+}
+
+
+.about .me{
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about .me h2{
+    color: blue;
+    text-align: center;
+}
+.about .me .is{
+    margin-top: 18px;
+}
+.our{
+    background-color: blue;
+    margin-top: 60px;
+    height: 80vh;
+    text-align: center;
+}
+
+.service{
+    background-color: ;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.service .web{
+    background: white;
+    height: 45vh;
+    width: 240px;
+    margin-top: px;
+    margin-right: 12px;
+    box-shadow: 5px 5px 5px blue;
+}
+.service .web:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+    transform: translateY(-15px);
+}
+.service .web p{
+    margin-top: 40px;
+    margin-right: px;
+    font-size: 25px ;
+    font-family: Arial, Helvetica, sans-serif ;
+font-weight: bold;
+color: blue;
+
+} 
+
+.service .web i{
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+
+.our h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3px;
+
+}
+
+.our p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.portfolio{
+    text-align: center;
+    margin-top: 80px;
+    background-color: blue;
+    width: 95%;
+    margin-left: 30px;
+    }
+    
+    .portfolio .smallimg{
+        margin: 20px;
+    }
+    
+    .portfolio .smallimg img{
+        margin: 40px;
+        box-shadow: 2px 2px 2px blue;
+    }
+    .portfolio .smallimg img:hover{
+        transition: all 1s;
+        transform: translateY(-10px);
+    }
+
+    .portfolio h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+
+    .portfolio p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .portfolio button{
+        padding: 13px;
+        border-radius: 40px;
+        background-color: blueviolet;
+        border: 1px solid blueviolet;
+   margin-bottom: 13px;
+    }
+    .portfolio button:hover{
+        background-color: black;
+        transition: 0.9s;
+        transform: translateY(-8px);
+    }
+
+    .portfolio button a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+
+    footer{
+        justify-content: center;
+        display: flex;
+        gap: 60px;
+        /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(/pics/foot.jpg);
+       
+       background-position: center;
+       background-size: cover; */
+       background-color: blue;
+       color: white;
+       font-family: 'Times New Roman', Times, serif;
+        height: 47vh;
+        margin-top: 20px;
+    }
+
+    footer h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    }
+
+    .feet p ol li{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .feetcont p{
+        line-height: 25px;
+        
+    }
+    
+
+    .feetfol ul li a{
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    .feetfol ul li {
+        color: white;
+    }
+.feet p ol li{
+    color: white;
+
+}
+
+    .feetlink ul li a{
+        color:white ;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    .feetlink ul li{
+        color: white;
+    }
+
+    footer p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foot p{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+.foot{
+    background-color: blue;
+}
+    .foot .icons{
+        color: white;
+        font-size: 25px;
+        margin-top: 8px;
+    }
+
+
+/* About */
+.aboutpage{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.507)),url(/pics/bac\ 2.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.aboutpage section h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.herotext{
+    margin-top: 30px;
+}
+.com{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.com h1{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.herotext button{
+    margin-top: 15px;
+    height: 25px;
+    width: 120px;
+    color: blueviolet;
+    border: 2px solid;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+.herotext button:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.herotext button a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.missiontext{
+    background-color: rgb(5, 5, 59);
+    width: 30%;
+    height: 55vh;
+    color: white;
+}
+.missiontext:hover{
+    background-color: black;
+    transition: all 1s;
+    transform: translateY(-10px);
+}
+.missiontext h2{
+    margin-top: 40px;
+}
+.missiontext p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.visionmission{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20vh;
+
+}
+
+.aboutteam{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    margin-top: 90px;
+    
+}
+
+.team1 h2{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.teamtext{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.mem{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(5, 5, 54);
+    height: 85vh;
+}
+.mem h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.member1 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.why{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.why h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: blue;
+}
+
+.why p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.why2{
+    margin-top: 30px;
+}
+
+.servicepage{
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.774)),url(/pics/back1.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.servicetext{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 15px;
+}
+.serviceweb{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 0px;
+    color: white;
+    height: 90vh;
+    width: 90%;
+    background-color: blue;
+    margin-left: 90px;
+    box-shadow: 3px 5px 8px;
+    
+}
+
+.webtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 0px;
+    line-height: 25px;
+   
+}
+
+
+
+.webtext h3{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.serviceweb img{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.serviceweb2{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 40px;
+    
+    height: 80vh;
+    width: 90%;
+    background-color: blue;
+    margin-left: 70px;
+}
+
+.webtext2{
+    display: flex;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: white;
+    margin-right: 20px;
+}
+.webtext2 img{
+    margin-top: 20px;
+}
+
+.webtext2 h3{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.webtext3{
+    display: flex;
+    gap: 30px;
+margin-top: 0px;
+}
+
+.webtext3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-top: 40px;
+}
+
+.webtext3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 25px;
+
+}
+.webtext3 img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.portpage{
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.651)),url(/pics/app\ dev1.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+.it h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.clients{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.client1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    box-shadow: 3px 4px 8px rgba(39, 36, 36, 0.514);
+    text-align: left;
+
+}
+ .cin{
+    display: flex;
+    gap: 35px;
+margin-left: 80px;
+}
+
+.client1 img{
+    margin-top: 10px;
+    border-radius: 180px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.client1 p{
+    margin-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.client1 .in{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+.client1 .in p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.client1 .in p b{
+    color: orange;
+    font-size: 20px;
+    
+
+}
+
+.it{
+    margin-top: 50px;
+}
+
+.herr h3{
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+text-decoration: underline;
+
+
+}
+
+.errr{
+    margin-top: 30px;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.errr img{
+box-shadow: 3px 4px 5px white;
+}
+
+.errr img:hover{
+    transition: 1s;
+    transform: translateY(-1.5px);
+}
+
+.ehhh{
+    margin-top: 30px;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.ehhh img{
+    box-shadow: 3px 4px 5px white;
+}
+
+
+.esss{
+    margin-left: 20px;
+    
+}
+
+.esss img{
+    box-shadow: 3px 4px 5px white;
+    gap: ;
+
+}
+
+.asaa{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.623)),url(/pictures/tran-mau-tri-tam-QwAL909kTiY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.asaa section{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 50px;
+
+}
+
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.icon1{
+    height: 35vh;
+    background-color: rgb(88, 18, 219);
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 3px 8px;
+    margin-top: 50px;
+}
+.icon1 i{
+    color: black;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.icon1 p{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.joe{
+    height: 60vh;
+    width: 500px;
+    background-color: rgb(69, 8, 150);
+    box-shadow: 3px 3px 5px;
+    margin-bottom: 30px;
+    
+}
+
+.joe h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.joe form p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+.joe form input{
+    height: 7vh;
+    width: 400px;
+    
+}
+.joe button{
+    background-color: rgb(9, 9, 34);
+    height: 35px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 2px solid  rgb(9, 9, 34) ;
+    border-radius: 50px;
+}
+
+.joe button a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0;
+    align-items: center;
+  }
+
+  .about {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .abimg {
+    margin: 20px 0;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .portfolio {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .portfolio .smallimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .visionmission {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .missiontext {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .aboutteam,
+  .member,
+  .cin,
+  .contact1,
+  .big,
+  .serviceweb,
+  .serviceweb2,
+  .webtext2,
+  .webtext3 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  .client1 {
+    width: 80%;
+  }
+
+  .joe {
+    width: 90%;
+  }
+
+  .joe form input {
+    width: 80%;
+  }
+
+  .joe button {
+    margin-left: 10%;
+  }
+
+  .asaa section {
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  .herotext button {
+    width: 100%;
+  }
+
+  nav ul button {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .text .up {
+    font-size: 30px;
+  }
+
+  .text .on {
+    font-size: 16px;
+  }
+}
